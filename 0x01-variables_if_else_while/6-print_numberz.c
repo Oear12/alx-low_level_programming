@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main -main fuction
  * 
@@ -8,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	for(i = 0; i < 10 ; i++)
+	for (i = 0 ; i < 10 ; i++)
 		putchar(i + 'o');
 	putchar('\n');
 	return (0);
